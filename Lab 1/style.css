@@ -9,27 +9,27 @@ body {
 }
 
 .menu {
-    /* border: 2px solid red; */
-    display: flex;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    /* justify-content: space-between; */
-
-    /* background-color: #687a6e; */
 }
 .menu__item {
     flex: 1;
+    padding: 0;
     list-style: none;
+    
 }
 .menu__link {
-    text-decoration: none;
-    color: #fff;
     display: block;
-    /* border-right: 2px solid #fff; */
+    text-decoration: none;
+    font-style: 14px;
+    font-weight: 500;
+    padding: 15px;
+    color: #fff;
     background-color: #687a6e;
-    font-size: 18px;
-    padding: 20px;
+    
 }
 .menu__link:hover {
     text-decoration: none;
