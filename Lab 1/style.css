@@ -15,11 +15,13 @@ body {
     justify-content: space-between;
     text-align: center;
 }
+
 .horizontal-menu__item {
     flex: 1;
     padding: 0;
-    list-style: none;  
+    list-style: none;
 }
+
 .horizontal-menu__link {
     display: block;
     text-decoration: none;
@@ -27,8 +29,9 @@ body {
     font-weight: 500;
     padding: 15px;
     color: #fff;
-    background-color: #687a6e;   
+    background-color: #687a6e;
 }
+
 .horizontal-menu__link:hover {
     text-decoration: none;
     color: #fff;
@@ -42,9 +45,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .vertical-menu__item {
     list-style: none;
 }
+
 .vertical-menu__link {
     text-decoration: none;
     display: block;
@@ -57,4 +62,96 @@ body {
     text-decoration: none;
     color: #fff;
     background-color: #deb0b0;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-menu__item {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.main-menu__link {
+    display: block;
+    text-decoration: none;
+    font-style: 14px;
+    font-weight: 500;
+    width: 200px;
+    padding: 15px;
+    color: #fff;
+    background-color: #687a6e;
+}
+
+.main-menu__link:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #687a6e9c;
+}
+
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    display: none;
+    position: absolute;
+
+}
+.submenu__item{
+    position: relative;
+}
+.submenu__link {
+    display: block;
+    text-decoration: none;
+    font-style: 14px;
+    font-weight: 500;
+    padding: 10px;
+    color: #fff;
+    background-color: #687a6e;
+}
+
+.submenu__link:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #687a6e9c;
+}
+
+.main-menu__item:hover .submenu {
+    display: block;
+}
+
+.subsubmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    left: 100%;
+    top: 0;
+    display: none;
+    position: absolute;
+
+}
+.subsubmenu__link {
+    display: block;
+    text-decoration: none;
+    font-style: 14px;
+    font-weight: 500;
+    padding: 10px;
+    width: 150px;
+    color: #fff;
+    background-color: #687a6e;
+}
+
+.subsubmenu__link:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #687a6e9c;
+}
+.submenu__item:hover .subsubmenu {
+    display: block;
 }
