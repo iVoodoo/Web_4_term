@@ -155,3 +155,52 @@ body {
 .submenu__item:hover .subsubmenu {
     display: block;
 }
+
+.img-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 30%; 
+}
+.page-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page__link {
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+    border: 4px solid #a57b7c;
+}
+.page__link:hover {
+    background-color: #a57b7c;
+    border: 4px solid #000;
+}
+
+.social-block {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.vk {
+    height: 36px;
+    width: 36px;
+    background-image: url(img/vk.svg);
+}
+.tg {
+    height: 36px;
+    width: 36px;
+    background-image: url(img/tg.svg);
+}
+.git {
+    height: 36px;
+    width: 36px;
+    background-image: url(img/github-logo.svg);
+}
