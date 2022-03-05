@@ -204,3 +204,23 @@ body {
     width: 36px;
     background-image: url(img/github-logo.svg);
 }
+
+.comment-block {
+    margin-bottom: 40px;
+}
+.comment__wrapper {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #a57b7c;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.comment__text input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
