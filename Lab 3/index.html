@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/carousel.css"
+/>
+    <title>Word Travel</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    World <span>Travel</span>
+                </div>
+                <div class="menu">
+                    <div class="menu__item">
+                        <a href="" class="menu__item__link">О нас</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="" class="menu__item__link">Наши туры</a>
+                    </div>
+                    <div class="menu__item">
+                        <a href="" class="menu__item__link">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-block">
+                <a href="#contact" class="btn">Оставить заявку</a>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">О Нас</h2>
+            <div class="section-description">
+                <div class="section-description__text">
+                    Туроператор World Travel предлагает лучшие курорты и отели в 38 странах мира, среди которых Австрия, Андорра, Бахрейн, Болгария, Вьетнам, Гамбия, Греция, Грузия, Доминиканская Республика, Египет, Израиль, Индия, Индонезия, Иордания, Испания, Италия, Кипр, Китай, Куба, Маврикий, Мальдивы, Марокко, Мексика, ОАЭ, Россия, Сейшелы, Сингапур, Таиланд, Танзания, Тунис, Турция, Узбекистан, Хорватия, Черногория, Шри-Ланка. Идет постоянная работа по открытию новых направлений. Туроператор организует групповые и индивидуальные туры FIT на базе собственных чартерных программ и регулярных рейсов, занимается развитием инсентив-, конгресс-, спортивного и других видов туризма, а также активно продает авиабилеты в онлайн.
+                </div>
+                <img class="section-description__image" src="img/about.jpg" alt="travelling around the world">
+            </div>
+        </div>
+    </section>
+    <section class="our-tours">
+        <div class="container">
+            <h2 class="section-title">наши туры</h2>
+            <div id="myCarousel" class="carousel">
+                <div class="carousel__slide" data-lazy-src="img/indoneziya.jpg">
+                      <p class="slide-description">Индонезия</p>
+                </div>
+                <div class="carousel__slide" data-lazy-src="img/dubai.jpg">
+                    <p class="slide-description">ОАЭ</p>
+                </div>
+                <div class="carousel__slide" data-lazy-src="img/mexico.jpg">
+                    <p class="slide-description">Мексика</p>
+                </div>
+            </div>
+            <p class="more-info">
+                Для получения большей информации свяжитес с нами
+            </p>
+            <div class="contact-block">
+                <a href="#contact" class="btn">Оставить заявку</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Оставить заявку</h2>
+            <div class="call__form__wrapper">
+				<div class="call__form">
+					<h3 class="form__title">Заполните форму и мы свяжемся с Вами</h3>
+					<form class="ui__form">
+
+						<div class="form__row">
+							<input type="text" name="name" required autocomplete="off" placeholder="Ваше имя">
+						</div>
+						<div class="form__row">
+							<input type="tel" id="phone" name="phone" required autocomplete="off"
+								placeholder="+7 (999) 99 99 999">
+						</div>
+                        <div>
+							<input id="button__form" class="btn button__form" value="Оставить заявку">
+                        </div>
+					</form>
+				</div>
+			</div>
+        </div>
+    </section>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/myCarousel.js"></script>
+    <script src="js/phoneMask.js"></script>
+    <script src="js/popup.js"></script>
+
+</body>
+
+
+</html>
