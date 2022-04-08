@@ -51,4 +51,8 @@
     .button__form {
         width: 80%;
     }
+    .slide-description {
+        writing-mode: vertical-lr; 
+        text-orientation: upright; 
+    }
 }
