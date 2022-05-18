@@ -1,0 +1,39 @@
+@media print {
+    @page {
+        margin: 0.5cm;
+    }
+
+    header {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .our-features {
+        position: static;
+    }
+
+    section {
+        page-break-inside: avoid;
+        margin: 0.5cm;
+    }
+
+    .video-block, .clients, .consulting {
+        display: none !important;
+    }
+    .footer__content {
+        flex-direction: column;
+        gap: 1cm;
+    }
+    .social-link[href]:after {
+        content: " ("attr(href) ")" !important;
+    }
+
+    /* 
+    .clients {
+        display: none !important;
+    } */
+
+    p {
+        widows: 4;
+    }
+}
