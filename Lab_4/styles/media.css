@@ -1,0 +1,297 @@
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1400px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 1100px;
+    }
+
+    .menu-svg {
+        right: -50px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .navbar-left {
+        width: 50%;
+    }
+
+    .menu-svg {
+        right: 0;
+    }
+
+    .our-features .card {
+        padding: 35px 0px 35px 30px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .container {
+        max-width: 760px;
+    }
+
+    .navbar-left {
+        width: 60%;
+    }
+
+    .navbar {
+        padding: 23px 10px;
+    }
+
+    .menu-svg {
+        right: 20px;
+    }
+
+    .attraction {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    .our-features {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .why-choose .section__cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .achivment__card {
+        width: 30%;
+    }
+
+    .practice-advice .section__cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .advice__card {
+        width: 30%;
+    }
+
+    .content-block {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .content-block .video-block {
+        width: 598px;
+        height: 442px;
+    }
+
+    .contact-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .consulting .consult-block {
+        padding: 40px 30px;
+    }
+
+    .mail-block .mail__send {
+        padding: 15px 0px;
+    }
+
+    .site-links .footer-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .site-links .menu__colomn {
+        width: 30%;
+        text-align: left;
+
+    }
+
+    .footer .rights {
+        padding-left: 20px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .navbar-left {
+        flex-direction: column;
+    }
+    .navbar-left {
+        position: relative;
+    }
+    .navbar-left .menu {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 0;
+    }
+
+    .menu__item {
+        display: block;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+        margin: 0 !important;
+    }
+
+    .attraction {
+        margin-top: 200px;
+    }
+     .attraction__cta {
+         flex-direction: column;
+         align-items: center;
+         gap: 20px;
+     }
+
+
+    .advice__card .card__img {
+        width: 100%;
+        /* max-width: 100%; */
+        bottom: -1em;
+    }
+    
+
+    .our-features .card {
+        width: 40%;
+    }
+
+    .advice__card, .achivment__card {
+        width: 40%;
+    }
+
+    .content-block .video-block {
+        width: 80%;
+    }
+
+    .clients-logo, .mail-block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .mail-block {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .mail-block .mail__field {
+        width: 80%;
+    }
+
+    .site-links .menu__colomn {
+        width: 50%;
+    }
+    .content-block .video-text {
+        margin: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+     .container {
+        max-width: 90%;   
+    }
+    .navbar-left .menu {
+        /* right: -25%; */
+    }
+
+    .attraction {
+
+        padding: 0px 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 40px !important;
+    }
+
+    .button-rounded {
+        padding: 7px 10px;
+    }
+    .our-features .card {
+        width: 100%;
+    }
+
+    .advice__card .card__img {
+        width: 100%;
+        bottom: -1.5em;
+    }
+
+    .advice__card, .achivment__card {
+        width: 55%;
+    }
+    .consulting .consult-block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .site-links .menu__colomn {
+        width: 44%;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .mail-block .mail__field {
+        width: 100%;
+    }
+    .site-links .menu__colomn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .container {
+        max-width: 90%;   
+    }
+    .navbar-left .menu {
+        right: -25%;
+    }
+    .our-features .card {
+        width: 100%;
+    }
+    .advice__card .card__img {
+        width: 100%;
+    }
+        
+
+    .advice__card, .achivment__card {
+        width: 100%;
+    }
+    .site-links .menu__colomn {
+        width: 60%;
+    }
+}
