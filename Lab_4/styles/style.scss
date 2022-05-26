@@ -602,10 +602,12 @@ body {
         letter-spacing: 0.2px;
         color: $second-text-color;
         padding: 15px 20px 15px 20px;
-        outline: none;
+        // outline: none;
         border: none;
         border-radius: 5px;
         width: 70%;
+        // outline: 2px solid rgb(0, 0, 0);
+
     }
 
     .mail__send {
@@ -613,7 +615,7 @@ body {
         top: 0;
         right: 0;
         background-color: $primary-color;
-        outline: none;
+        // outline: none;
         border: none;
         padding: 15px 23px;
         font-family: 'Montserrat';
@@ -631,7 +633,12 @@ body {
         &:hover {
             background-color: #ff9e17;
         }
+
     }
+}
+
+:focus {
+    outline: 2px solid #000;   
 }
 
 .clients {
